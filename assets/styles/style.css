@@ -37,7 +37,7 @@ body {
 .title {
     display: flex;
     align-items: center;
-    margin-left: 5%;
+    justify-content: flex-start;
 }
 
 .title h1 {
@@ -191,12 +191,19 @@ footer h4 {
         max-width: 100px;
     
     }
+
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .title h1 {
         color: #222;
         background: #E9E2D0;
         background-image: url("../imgs/paper-tex.webp");
         filter: sepia(1);
-        font-size: 25px;
+        font-size: 20px;
         border-radius: 5px;
         font-weight: bold;
     }
