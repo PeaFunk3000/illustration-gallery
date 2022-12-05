@@ -172,3 +172,41 @@ footer {
 footer h4 {
     color: #ffffd9;
 }
+
+@media screen and (max-width: 640px) {
+    .gridhead {
+        width: 100%;
+        height: 150px;
+        margin-top: 25px;
+        background: #999955;
+        background-image: linear-gradient(#DAB046 20%, #D73B25 20%, #D73B25 40%, #C71B25 40%, #C71B25 60%, #961A39 60%, #961A39 80%, #601035 80%);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "LEGO"    
+            "PeaFUNK";
+    }
+    .headshot img {
+        max-width: 100px;
+    
+    }
+    .title h1 {
+        color: #222;
+        background: #E9E2D0;
+        background-image: url("../imgs/paper-tex.webp");
+        filter: sepia(1);
+        font-size: 25px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+}
+ 
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+
+}
+
+@media screen and (min-width: 1008px) {
+
+}
